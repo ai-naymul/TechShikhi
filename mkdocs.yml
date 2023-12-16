@@ -60,9 +60,9 @@ extra:
   - icon: fontawesome/brands/github-alt
     link: https://github.com/TechShikhi/TechShikhi
   - icon: fontawesome/brands/discord
-    link: https://discord.com/invite/WaMp6PVPgR
+    link: https://www.github.com/ai-naymul/TechShikhi
   - icon: fontawesome/brands/twitter
-    link: https://twitter.com/TechShikhi
+    link: https://twitter.com/ai-naymul
 
 plugins:
   - search
