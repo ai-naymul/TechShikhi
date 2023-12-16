@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/techshikhi_logo_2.jpg" width="250px">
+<img src="./docs/assets/techshikhi_logo_2.jpg" width="250px">
 <br>
 <b>Simplifying Complex Tech Concepts in Bengali for Everyone</b>
 </p>
