@@ -1,0 +1,125 @@
+site_name: TechShikhi
+site_description: TechShikhi is a community-driven, open-source project dedicated to breaking down complex tech concepts into simple Bengali. It aims to make technology accessible to everyone, regardless of their background. The project offers a vast library of tech topics, from programming languages to machine learning, and encourages contributions from the community.
+
+site_url: https://ai-naymul.github.io/TechShikhi/
+repo_name: ai-naymul/TechShikhi
+repo_url: https://github.com/ai-naymul/TechShikhi
+edit_uri: ''
+theme:
+  # logo: assets/dark.svg
+
+  # favicon: assets/favicon.png
+  name: material
+  features:
+#    - navigation.sections
+    - navigation.indexes
+    - content.code.copy
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+        logo: assets/techshikhi_logo_2.jpg
+
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+#        logo: assets/TechShikhi-light.svg
+
+    #primary: teal
+  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - attr_list
+  - md_in_html
+
+extra:
+  analytics:
+    provider: google
+    property: G-HTTNBRW3Z2
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/TechShikhi/TechShikhi
+  - icon: fontawesome/brands/discord
+    link: https://discord.com/invite/WaMp6PVPgR
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/TechShikhi
+
+plugins:
+  - search
+  - awesome-pages
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            tring_style: sphinx
+            inherited_members: true
+            show_root_toc_entry: false
+            show_root_heading: true
+            show_submodules: yes
+
+nav:
+  - TechShikhi: index.md
+  - Machine Learning:
+    - Introduction to Machine Learning:
+      - What is Machine Learning: Machine Learning/Introduction to Machine Learning/What is Machine Learning.md
+      - Applications of Machine Learning: Machine Learning/Introduction to Machine Learning/Applications of Machine Learning.md
+      - Difference between AI, Machine Learning, and Deep Learning: Machine Learning/Introduction to Machine Learning/Difference between AI, Machine Learning, and Deep Learning.md
+    - Types of Machine Learning:
+      - Supervised Learning: Machine Learning/Types of Machine Learning/Supervised Learning.md
+      - Unsupervised Learning: Machine Learning/Types of Machine Learning/Unsupervised Learning.md
+      - Semi-Supervised Learning: Machine Learning/Types of Machine Learning/Semi-Supervised Learning.md
+      - Reinforcement Learning: Machine Learning/Types of Machine Learning/Reinforcement Learning.md
+    - Machine Learning Algorithms:
+      - Linear Regression: Machine Learning/Machine Learning Algorithms/Linear Regression.md
+      - Logistic Regression: Machine Learning/Machine Learning Algorithms/Logistic Regression.md
+      - Decision Trees: Machine Learning/Machine Learning Algorithms/Decision Trees.md
+      - Random Forest: Machine Learning/Machine Learning Algorithms/Random Forest.md
+      - K-Nearest Neighbors (KNN): Machine Learning/Machine Learning Algorithms/K-Nearest Neighbors (KNN).md
+      - Support Vector Machines (SVM): Machine Learning/Machine Learning Algorithms/Support Vector Machines (SVM).md
+    - Neural Networks:
+      - Neural Networks and Deep Learning: Machine Learning/Neural Networks/Neural Networks and Deep Learning.md
+      - Structure of Neural Networks: Machine Learning/Neural Networks/Structure of Neural Networks.md
+      - How Neural Networks Mimic the Human Brain: Machine Learning/Neural Networks/How Neural Networks Mimic the Human Brain.md
+    - Data in Machine Learning:
+      - Importance of Data in Machine Learning: Machine Learning/Data in Machine Learning/Importance of Data in Machine Learning.md
+      - How to Split Data into Training and Testing Sets: Machine Learning/Data in Machine Learning/How to Split Data into Training and Testing Sets.md
+    - Model Evaluation:
+      - Techniques to Evaluate the Performance of a Machine Learning Model: Machine Learning/Model Evaluation/Techniques to Evaluate the Performance of a Machine Learning Model.md
+    - Overfitting and Underfitting:
+      - Understanding Overfitting and Underfitting: Machine Learning/Overfitting and Underfitting/Understanding Overfitting and Underfitting.md
+      - How to Handle Overfitting and Underfitting: Machine Learning/Overfitting and Underfitting/How to Handle Overfitting and Underfitting.md
+    - Regularization:
+      - Techniques to Prevent Overfitting: Machine Learning/Regularization/Techniques to Prevent Overfitting.md
+    - Optimization Algorithms:
+      - Understanding Optimization Algorithms like Gradient Descent: Machine Learning/Optimization Algorithms/Understanding Optimization Algorithms like Gradient Descent.md
+    - Bias-Variance Tradeoff:
+      - Understanding the Balance between Bias (Underfitting) and Variance (Overfitting): Machine Learning/Bias-Variance Tradeoff/Understanding the Balance between Bias (Underfitting) and Variance (Overfitting).md
+      - Ethical AI and Bias Mitigation: Machine Learning/Bias-Variance Tradeoff/Ethical AI and Bias Mitigation.md
+      - Understanding the Ethical Implications of Machine Learning: Machine Learning/Bias-Variance Tradeoff/Understanding the Ethical Implications of Machine Learning.md
+      - How to Mitigate Bias in Machine Learning: Machine Learning/Bias-Variance Tradeoff/How to Mitigate Bias in Machine Learning.md
+
+
+
+
+
+  - Contributing: CONTRIBUTING.md

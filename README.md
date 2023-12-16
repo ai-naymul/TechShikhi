@@ -1,3 +1,9 @@
+<p align="center">
+<img src="assets/techshikhi_logo_2.jpg" width="250px">
+<br>
+<b>Simplifying Complex Tech Concepts in Bengali for Everyone</b>
+</p>
+
 # TechShikhi 🌐📚
 
 Welcome to TechShikhi! This open-source project is dedicated to defining tech concepts in Bengali 🗣️🇧🇩. Our goal is to make technology accessible to everyone, regardless of their background 💻🚀.
